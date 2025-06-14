@@ -1,0 +1,173 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1;
+}
+
+.logo span {
+  font-weight: 400;
+  font-size: 14px;
+  color: orangered;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.icons i {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+
+
+
+
+.main{
+    width: 100%;
+    height: 100%;
+
+    /* background-color: lightblue; */
+}
+.hero-section {
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-section .left, .hero-section > .right {
+    height: 100%;
+    width: 50%;
+    /* background-color: red; */
+    border-radius: 15px;
+}
+
+.hero-section > .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 25px;
+     background-image: url(https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1vZGVsJTIwYm95fGVufDB8fDB8fHww);
+     background-size: cover;
+}
+.hero-section .right .object{
+    display: flex;
+    gap: 20px;
+}
+
+
+.hero-section .right .object  button{
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    outline: none;
+    
+}
+.hero-section .right .contact-us{
+    background-color: transparent;
+    border: 1px solid white; 
+    color: rgb(255, 255, 255); 
+
+}
+
+.hero-section .right .learn-more{ 
+    border: none;
+    background-color: white;
+}
+
+
+
+.hero-section .left{
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-section .left .top{
+    flex: 1;
+    display: flex;
+    background-color: rgb(166, 166, 166);
+    border-radius: 15px;
+    padding: 30px;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.hero-section .left .top h1{
+    font-size: 70px;
+    line-height: 1;
+}
+.hero-section .left .top p{
+    font-size: 17px;
+}
+
+.hero-section .left .buttom .left , .hero-section .left .buttom .right{
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+ .hero-section .left .buttom{
+    flex: 1;
+    display: flex;
+    gap: 20px;
+} 
+
+.hero-section .left .buttom .left{
+    background-image: url(https://images.pexels.com/photos/17307290/pexels-photo-17307290/free-photo-of-model-in-the-forest.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+}
+
+.hero-section .left .buttom .right{
+    background-image: url(https://plus.unsplash.com/premium_photo-1749596417473-3f05a5dafcd5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2luZW1hdGljJTIwaXR8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+}
+.hero-section .left .buttom .left p{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.hero-section .left .buttom .right p{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    
+}
